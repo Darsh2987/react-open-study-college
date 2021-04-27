@@ -1,0 +1,43 @@
+.card_course {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: $gray-dark;
+  -webkit-box-shadow: 0px 13px 10px -4px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 13px 10px -4px rgba(0, 0, 0, 0.7);
+
+  .fa-graduation-cap {
+    font-size: 1rem;
+    padding: 0.4rem;
+    background: linear-gradient(180deg, #f37072 0%, #c62a64 100%);
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    -webkit-box-shadow: 0px 0px 0px 8px #4b4c4b, 0px 0px 0px 16px #828482, 0px 13px 10px -4px rgba(186, 48, 94, 0);
+    box-shadow: 0px 0px 0px 8px rgba(186, 48, 94, 0.3), 0px 0px 0px 16px rgba(186, 48, 94, 0.1), 0px 13px 10px -4px rgba(186, 48, 94, 0);
+  }
+
+  &-current-course {
+    margin-left: 1.5rem;
+    text-align: left;
+    width: 250px;
+
+    h2 {
+      font-size: 0.9rem;
+      margin-bottom: 0.2rem;
+      letter-spacing: 0.05rem;
+    }
+
+    p {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+    }
+  }
+
+  .fa-chevron-right {
+    justify-self: flex-end;
+    color: $gray-lightest;
+  }
+}
