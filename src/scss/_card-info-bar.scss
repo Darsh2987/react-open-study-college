@@ -1,0 +1,37 @@
+.card_infobar {
+  position: relative;
+  bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: $gray-dark;
+  border-radius: 20px;
+  padding: 1rem;
+  margin: 1rem;
+
+  span {
+    width: 0px;
+    height: 25px;
+    margin: 0 1rem;
+    border-right: 1px solid rgba($gray-lightest, 0.3);
+  }
+
+  &-col-one,
+  &-col-two {
+    p:first-child {
+      font-size: 0.9rem;
+      margin-bottom: 0.1rem;
+    }
+  }
+
+  &-col-one,
+  &-col-two {
+    p:last-child {
+      font-size: 0.6rem;
+      color: $gray-lightest;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+  }
+}
