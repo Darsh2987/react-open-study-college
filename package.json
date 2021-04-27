@@ -17,6 +17,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
+  "homepage": "https://darsh2987.github.io/react-open-study-college/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
