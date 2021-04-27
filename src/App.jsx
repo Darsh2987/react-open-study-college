@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await Axios("http://leads.beta.openstudycollege.info/getTopLeads");
+        const response = await Axios("https://leads.beta.openstudycollege.info/getTopLeads");
         const results = response.data;
         const randomItem = results[Math.floor(Math.random() * results.length)];
         setData(randomItem);
