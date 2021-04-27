@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+.card {
+  position: relative;
+  width: 350px;
+  height: 800px;
+  background-color: $gray-darkest;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+}
