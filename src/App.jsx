@@ -7,6 +7,7 @@ import Card from "./components/Card.jsx";
 
 function App() {
   const [data, setData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     async function fetchData() {
@@ -15,6 +16,7 @@ function App() {
         const results = response.data;
         const randomItem = results[Math.floor(Math.random() * results.length)];
         setData(randomItem);
+        setIsLoading(false);
       } catch (e) {
         console.log("ERROR FETCHING DATA FROM API");
       }
@@ -25,7 +27,9 @@ function App() {
 
   return (
     <div className="App">
-      <Card data={data} />
+      <div className="main">
+        <Card isLoading={isLoading} data={data} />
+      </div>
     </div>
   );
 }
