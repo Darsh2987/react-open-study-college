@@ -9,6 +9,7 @@ function App() {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
+  // Function Axios to Fetch Data - Get a random item from the data retrieved
   useEffect(() => {
     async function fetchData() {
       try {
