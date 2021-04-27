@@ -1,6 +1,5 @@
 .card_infobar {
   position: relative;
-  bottom: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,7 +7,7 @@
   background-color: $gray-dark;
   border-radius: 20px;
   padding: 1rem;
-  margin: 1rem;
+  margin: -2rem 1rem 1rem 1rem;
 
   span {
     width: 0px;
