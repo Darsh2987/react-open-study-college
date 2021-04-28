@@ -19,18 +19,9 @@
   &-col-one,
   &-col-two {
     p:first-child {
+      all: unset;
       font-size: 0.9rem;
       margin-bottom: 0.1rem;
-    }
-  }
-
-  &-col-one,
-  &-col-two {
-    p:last-child {
-      font-size: 0.6rem;
-      color: $gray-lightest;
-      text-transform: uppercase;
-      letter-spacing: 1px;
     }
   }
 }
