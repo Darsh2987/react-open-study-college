@@ -2,9 +2,6 @@ import React, { useState, useEffect } from "react";
 import "./App.scss";
 import Axios from "axios";
 
-// Data from JSON File
-import topLeadsData from "./data.json";
-
 // Components
 import Card from "./components/Card.jsx";
 
@@ -33,9 +30,6 @@ function App() {
 
     fetchData();
   }, []);
-
-  // Call Function to Get a Random Data Item from Top Leads Data JSON file
-  // const randomItem = getRandomItem(topLeadsData);
 
   return (
     <div className="App">
