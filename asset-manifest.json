@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-open-study-college/static/css/main.64bc7c49.chunk.css",
-    "main.js": "/react-open-study-college/static/js/main.6abb601b.chunk.js",
-    "main.js.map": "/react-open-study-college/static/js/main.6abb601b.chunk.js.map",
+    "main.js": "/react-open-study-college/static/js/main.0760fcc7.chunk.js",
+    "main.js.map": "/react-open-study-college/static/js/main.0760fcc7.chunk.js.map",
     "runtime-main.js": "/react-open-study-college/static/js/runtime-main.6c72b636.js",
     "runtime-main.js.map": "/react-open-study-college/static/js/runtime-main.6c72b636.js.map",
     "static/js/2.dc29aa47.chunk.js": "/react-open-study-college/static/js/2.dc29aa47.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.6c72b636.js",
     "static/js/2.dc29aa47.chunk.js",
     "static/css/main.64bc7c49.chunk.css",
-    "static/js/main.6abb601b.chunk.js"
+    "static/js/main.0760fcc7.chunk.js"
   ]
 }
