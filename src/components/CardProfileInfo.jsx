@@ -20,9 +20,9 @@ function CardProfileInfo(props) {
     <div className="card_profile-info">
       <div className="card_profile-info-contact">
         <h2>Contact Details</h2>
-        <p>Email: {validateEmail(props.data.email) ? props.data.email : "Invalid Email"}</p>
+        <p>Email: {validateEmail(props.data.email) ? props.data.email : "TBA or Invalid Email"}</p>
         <br />
-        <p>Tel: {validatePhone(props.data.telephone) ? props.data.telephone : "Invalid Phone No."}</p>
+        <p>Tel: {validatePhone(props.data.telephone) ? props.data.telephone : "TBA or Invalid Phone No."}</p>
       </div>
       <div className="card_profile-info-about">
         <h2>About Me</h2>
