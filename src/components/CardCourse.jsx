@@ -13,7 +13,7 @@ function CardCourse(props) {
       <FontAwesomeIcon icon={faGraduationCap} />
       <div className="card_course-current-course">
         <h2>Current Course:</h2>
-        <p>{truncate(props.data.course_title, 20)}</p>
+        <p>{props.data.course_title ? truncate(props.data.course_title, 20) : "No course currently assigned"}</p>
       </div>
       <FontAwesomeIcon icon={faChevronRight} />
     </div>
