@@ -13,9 +13,9 @@ function CardHeader(props) {
           <FontAwesomeIcon icon={faCheck} />
         </div>
 
-        <h1 className="card_profile-name">{props.data.name ? props.data.name : "TBA"}</h1>
-        <h3 className="card_profile-status">{props.data.status ? props.data.status : "TBA"}</h3>
-        <h3 className="card_profile-id">ID: {props.data.id ? props.data.id : "TBA"}</h3>
+        <h1 className="card_profile-name">{props.data.name || "TBA"}</h1>
+        <h3 className="card_profile-status">{props.data.status || "TBA"}</h3>
+        <h3 className="card_profile-id">ID: {props.data.id || "TBA"}</h3>
       </div>
     </div>
   );
