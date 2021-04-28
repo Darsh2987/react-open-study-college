@@ -20,6 +20,10 @@
 
   .fa-chevron-down {
     color: $gray-lightest;
+
+    &:hover {
+      color: #fff;
+    }
   }
 
   &-gallery {

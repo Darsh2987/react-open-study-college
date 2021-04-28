@@ -33,5 +33,9 @@
   .fa-chevron-right {
     justify-self: flex-end;
     color: $gray-lightest;
+
+    &:hover {
+      color: #fff;
+    }
   }
 }
