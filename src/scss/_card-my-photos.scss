@@ -101,3 +101,13 @@
     }
   }
 }
+
+@media screen and (max-width: 425px) {
+  .card_my-photos {
+    &-headline {
+      h2 {
+        font-size: 0.9rem;
+      }
+    }
+  }
+}

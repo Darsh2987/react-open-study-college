@@ -22,3 +22,18 @@
     }
   }
 }
+
+@media screen and (max-width: 425px) {
+  .card_profile-info {
+    &-contact,
+    &-about {
+      h2 {
+        font-size: 0.7rem;
+      }
+
+      p {
+        font-size: 0.7rem;
+      }
+    }
+  }
+}

@@ -25,3 +25,14 @@
     }
   }
 }
+
+@media screen and (max-width: 425px) {
+  .card_infobar {
+    &-col-one,
+    &-col-two {
+      p:first-child {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
