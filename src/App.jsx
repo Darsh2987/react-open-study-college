@@ -17,31 +17,31 @@ function App() {
     return results[Math.floor(Math.random() * results.length)];
   }
 
-  // // Function Axios to Fetch Data - Get a random item from the data retrieved - UNCOMMENT THIS WHEN HTTPS ISSUE IS FIXED
-  // useEffect(() => {
-  //   async function fetchData() {
-  //     try {
-  //       const response = await Axios("http://leads.beta.openstudycollege.info/getTopLeads");
-  //       const results = response.data;
-  //       const randomItem = getRandomItem(results);
-  //       setData(randomItem);
-  //       setIsLoading(false);
-  //     } catch (e) {
-  //       console.log("ERROR FETCHING DATA FROM API");
-  //     }
-  //   }
+  // Function Axios to Fetch Data - Get a random item from the data retrieved
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const response = await Axios("https://leads.beta.openstudycollege.info/getTopLeads");
+        const results = response.data;
+        const randomItem = getRandomItem(results);
+        setData(randomItem);
+        setIsLoading(false);
+      } catch (e) {
+        console.log("ERROR FETCHING DATA FROM API");
+      }
+    }
 
-  //   fetchData();
-  // }, []);
+    fetchData();
+  }, []);
 
-  // Call Function to Get a Random Data Item from Top Leads Data JSON file - COMMENT THIS WHEN HTTPS ISSUE IS FIXED
-  const randomItem = getRandomItem(topLeadsData);
+  // Call Function to Get a Random Data Item from Top Leads Data JSON file
+  // const randomItem = getRandomItem(topLeadsData);
 
   return (
     <div className="App">
       <div className="main">
-        {/* <Card isLoading={isLoading} data={data} /> UNCOMMENT THIS WHEN HTTPS ISSUE IS FIXED */}
-        <Card data={randomItem} />
+        <Card isLoading={isLoading} data={data} />
+        {/* <Card data={randomItem} /> */}
       </div>
     </div>
   );
