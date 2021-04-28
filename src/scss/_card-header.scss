@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 300px;
   text-align: center;
   background: linear-gradient(180deg, rgba(243, 112, 114, 1) 0%, rgba(198, 42, 100, 1) 100%);
   padding: 1rem 1rem 4rem 1rem;
@@ -54,7 +55,7 @@
 
     &-status {
       font-size: 0.8rem;
-      font-weight: 400;
+      font-weight: bold;
       letter-spacing: 1px;
       margin-top: 0.1rem;
       margin-bottom: 0.8rem;
