@@ -15,7 +15,7 @@ body {
 
 .card {
   position: relative;
-  width: 380px;
+  width: 400px;
   background-color: $gray-darkest;
   border-top-left-radius: 22px;
   border-top-right-radius: 22px;
@@ -39,6 +39,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     color: $gray-lightest;
+    margin-top: 0.2rem;
   }
 }
 

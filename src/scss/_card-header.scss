@@ -31,6 +31,7 @@
 
   .card_profile {
     position: relative;
+    top: 20px;
     &-picture {
       width: 80px;
       height: 80px;
@@ -58,7 +59,7 @@
       font-weight: bold;
       letter-spacing: 1px;
       margin-top: 0.1rem;
-      margin-bottom: 0.8rem;
+      margin-bottom: 1rem;
       color: $pink-lightest;
     }
 
@@ -76,9 +77,9 @@
 
   .fa-times {
     position: relative;
-    bottom: 25px;
     align-self: flex-end;
     font-size: 1.5rem;
+    margin: -1rem 1rem;
     cursor: pointer;
   }
 
