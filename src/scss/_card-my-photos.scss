@@ -96,3 +96,21 @@
     }
   }
 }
+
+@media screen and (max-width: 375vw) {
+  .card_my-photos {
+    &-gallery {
+      grid-template-columns: repeat(4, 50px);
+      grid-template-rows: repeat(2, 50px);
+    }
+  }
+}
+
+@media screen and (max-width: 425vw) {
+  .card_my-photos {
+    &-gallery {
+      grid-template-columns: repeat(4, 60px);
+      grid-template-rows: repeat(2, 60px);
+    }
+  }
+}

@@ -46,3 +46,20 @@ body {
 .svg-inline--fa {
   cursor: pointer;
 }
+
+@media screen and (max-width: 425px) {
+  body {
+    display: unset;
+
+    .main {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+    }
+  }
+
+  .card {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
