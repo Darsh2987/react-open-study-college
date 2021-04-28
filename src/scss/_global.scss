@@ -5,6 +5,10 @@
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
   font-family: "Montserrat", sans-serif;
   color: #fff;
 }
@@ -12,16 +16,21 @@ body {
 .card {
   position: relative;
   width: 380px;
-  height: 800px;
   background-color: $gray-darkest;
   border-top-left-radius: 22px;
   border-top-right-radius: 22px;
+  -webkit-box-shadow: 0px 13px 30px -4px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 13px 30px -4px rgba(0, 0, 0, 0.7);
+
+  p {
+    font-size: 0.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: $gray-lightest;
+  }
 }
 
-p {
-  font-size: 0.6rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  color: $gray-lightest;
+.svg-inline--fa {
+  cursor: pointer;
 }
