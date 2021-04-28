@@ -35,7 +35,6 @@ function App() {
     <div className="App">
       <div className="main">
         <Card isLoading={isLoading} data={data} />
-        {/* <Card data={randomItem} /> */}
       </div>
     </div>
   );
