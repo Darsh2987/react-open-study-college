@@ -1,12 +1,12 @@
 # Getting Started with Create React App
 
-React Card Component built using -.\
-Axios - Math.Random to populate the card information with a random item from the JSON endpoint data - reload page to see this in action,.\
-SCSS,.\
-HTML,.\
-regular expresions for email and phone validation,.\
-capitalise function for name,.\
-truncate function for current course information,.\
+React Card Component built using -\
+Axios - Math.Random to populate the card information with a random item from the JSON endpoint data - reload page to see this in action,\
+SCSS,\
+HTML,\
+regular expresions for email and phone validation,\
+capitalise function for name,\
+truncate function for current course information,\
 and some subtle animations(card) transitions(my photos section) and hover effects.
 
 Deployed using GH-Page.
