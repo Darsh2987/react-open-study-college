@@ -13,9 +13,6 @@ function CardProfileInfo(props) {
     return regex.test(phone);
   }
 
-  console.log(props.data.email);
-  console.log(props.data.telephone);
-
   return (
     <div className="card_profile-info">
       <div className="card_profile-info-contact">
