@@ -14,7 +14,7 @@ function CardProfileInfo(props) {
   }
 
   return (
-    <div className="card_profile-info">
+    <section className="card_profile-info">
       <div className="card_profile-info-contact">
         <h2>Contact Details</h2>
         <p>Email: {validateEmail(props.data.email) ? props.data.email : "TBA or Invalid Email"}</p>
@@ -25,7 +25,7 @@ function CardProfileInfo(props) {
         <h2>About Me</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit obcaecati, dolorum vel neque unde quod fugiat.</p>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -10,7 +10,7 @@ import PhotoFour from "../images/photo-4.jpg";
 
 function CardMyPhotos() {
   return (
-    <div className="card_my-photos">
+    <section className="card_my-photos">
       <div className="card_my-photos-headline">
         <h2>My Photos</h2>
         <FontAwesomeIcon icon={faChevronDown} />
@@ -31,7 +31,7 @@ function CardMyPhotos() {
           <FontAwesomeIcon icon={faArrowRight} />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

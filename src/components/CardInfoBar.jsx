@@ -2,7 +2,7 @@ import React from "react";
 
 function CardInfoBar() {
   return (
-    <div className="card_infobar">
+    <section className="card_infobar">
       <div className="card_infobar-col-one">
         <p>Complete</p>
         <p>Enrolment Status</p>
@@ -12,7 +12,7 @@ function CardInfoBar() {
         <p>3</p>
         <p>Completed Courses</p>
       </div>
-    </div>
+    </section>
   );
 }
 

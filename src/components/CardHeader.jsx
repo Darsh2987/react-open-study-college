@@ -4,8 +4,6 @@ import { faCheck, faTimes } from "@fortawesome/free-solid-svg-icons";
 import profilePicture from "../images/profile-picture.jpg";
 
 function CardHeader(props) {
-  console.log(props.data.name);
-
   // Function to Capitalise Name
   const capitaliseName = (str) => {
     const words = str.split(" ");
@@ -13,7 +11,7 @@ function CardHeader(props) {
   };
 
   return (
-    <div className="card_header">
+    <section className="card_header">
       <FontAwesomeIcon icon={faTimes} />
       <div className="card_profile">
         <div className="card_profile-picture-wrapper">
@@ -25,7 +23,7 @@ function CardHeader(props) {
         <h3 className="card_profile-status">{props.data.status || "TBA"}</h3>
         <h3 className="card_profile-id">ID: {props.data.id || "TBA"}</h3>
       </div>
-    </div>
+    </section>
   );
 }
 
