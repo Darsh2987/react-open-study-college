@@ -46,14 +46,12 @@
     &-name {
       font-size: 1.4rem;
       font-weight: 400;
-      letter-spacing: 1px;
       margin-top: 0.3rem;
     }
 
     &-status {
       font-size: 0.8rem;
       font-weight: bold;
-      letter-spacing: 1px;
       margin-top: 0.1rem;
       margin-bottom: 1rem;
       color: $pink-lightest;
@@ -63,11 +61,16 @@
       display: inline;
       padding: 0.5rem;
       font-size: 0.7rem;
-      letter-spacing: 1px;
       font-weight: 400;
       background-color: $pink-dark;
       border: 1.5px solid $pink-lightest;
       border-radius: 20px;
+    }
+
+    &-name,
+    &-status,
+    &-id {
+      letter-spacing: 0.1rem;
     }
   }
 
